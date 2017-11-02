@@ -2,3 +2,4 @@
 *.xojo_code.obsolete_*
 *.xojo_code.obsolete*
 /LeftRightArrow.xojo_code.obsolete_20171031_111344
+*.debug

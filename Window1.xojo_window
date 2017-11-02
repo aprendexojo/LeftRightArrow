@@ -9,7 +9,7 @@ Begin Window Window1
    FullScreen      =   False
    FullScreenButton=   False
    HasBackColor    =   False
-   Height          =   400
+   Height          =   122
    ImplicitInstance=   True
    LiveResize      =   True
    MacProcID       =   0
@@ -25,22 +25,24 @@ Begin Window Window1
    Resizeable      =   True
    Title           =   "Untitled"
    Visible         =   True
-   Width           =   600
+   Width           =   262
    Begin LeftRightArrow LeftRightArrow1
       AcceptFocus     =   False
       AcceptTabs      =   False
       AutoDeactivate  =   True
       Backdrop        =   0
+      borderColor     =   &c484A4B00
       disabledColor   =   &c00000000
-      DoubleBuffer    =   False
-      Enabled         =   False
+      DoubleBuffer    =   True
+      Enabled         =   True
       EraseBackground =   True
       facingRight     =   False
+      hasBorder       =   True
       Height          =   23
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   136
+      Left            =   20
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -52,7 +54,41 @@ Begin Window Window1
       TabIndex        =   0
       TabPanelIndex   =   0
       TabStop         =   True
-      Top             =   55
+      Top             =   20
+      Transparent     =   True
+      UseFocusRing    =   True
+      Visible         =   True
+      Width           =   23
+   End
+   Begin LeftRightArrow LeftRightArrow2
+      AcceptFocus     =   False
+      AcceptTabs      =   False
+      AutoDeactivate  =   True
+      Backdrop        =   0
+      borderColor     =   &c484A4B00
+      disabledColor   =   &c00000000
+      DoubleBuffer    =   True
+      Enabled         =   True
+      EraseBackground =   True
+      facingRight     =   True
+      hasBorder       =   True
+      Height          =   23
+      HelpTag         =   ""
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Left            =   56
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      mouseOverColor  =   &c77777F00
+      paintColor      =   &cA0A0AC00
+      Scope           =   0
+      TabIndex        =   1
+      TabPanelIndex   =   0
+      TabStop         =   True
+      Top             =   20
       Transparent     =   True
       UseFocusRing    =   True
       Visible         =   True
@@ -65,6 +101,13 @@ End
 #tag EndWindowCode
 
 #tag Events LeftRightArrow1
+	#tag Event
+		Sub Open()
+		  
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events LeftRightArrow2
 	#tag Event
 		Sub Open()
 		  

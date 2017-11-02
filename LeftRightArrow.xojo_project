@@ -1,11 +1,11 @@
 Type=Desktop
 RBProjectVersion=2017.011
 MinIDEVersion=20070100
+Class=LeftRightArrow;LeftRightArrow.xojo_code;&hC79FFFF;&h0;false
 Class=App;App.xojo_code;&h786E1FFF;&h0;false
 Window=Window1;Window1.xojo_window;&h34CCC7FF;&h0;false
 MenuBar=MainMenuBar;MainMenuBar.xojo_menu;&h3B797FFF;&h0;false
 BuildSteps=Build Automation;Build Automation.xojo_code;&h366AA7FF;&h0;false
-Class=LeftRightArrow;LeftRightArrow.xojo_code;&hC79FFFF;&h0;false
 DefaultWindow=Window1
 AppMenuBar=MainMenuBar
 MajorVersion=1
