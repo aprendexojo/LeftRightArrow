@@ -1,5 +1,5 @@
 Type=iOS
-RBProjectVersion=2017.011
+RBProjectVersion=2017.021
 MinIDEVersion=20140300
 Class=App;App.xojo_code;&h4FC7FFF;&h0;false
 iOSScreen=iPhoneScreen;iPhoneScreen.xojo_code;&h1EFF67FF;&h0;false
@@ -23,7 +23,7 @@ WinInternalName=
 WinProductName=
 WinFileDescription=
 AutoIncrementVersionInformation=False
-BuildFlags=&h4100
+BuildFlags=&h6100
 BuildLanguage=&h0
 DebugLanguage=&h0
 Region=

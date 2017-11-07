@@ -11,10 +11,10 @@ Begin iosView View1
    Begin LeftRightArrow LeftRightArrow1
       AccessibilityHint=   ""
       AccessibilityLabel=   ""
-      AutoLayout      =   LeftRightArrow1, 8, , 0, False, +1.00, 1, 1, 25, 
-      AutoLayout      =   LeftRightArrow1, 1, <Parent>, 1, False, +1.00, 1, 1, *kStdGapCtlToViewH, 
-      AutoLayout      =   LeftRightArrow1, 3, <Parent>, 3, False, +1.00, 1, 1, 41, 
-      AutoLayout      =   LeftRightArrow1, 7, , 0, False, +1.00, 1, 1, 25, 25
+      AutoLayout      =   LeftRightArrow1, 8, , 0, False, +1.00, 1, 1, 25, , True
+      AutoLayout      =   LeftRightArrow1, 1, <Parent>, 1, False, +1.00, 1, 1, *kStdGapCtlToViewH, , True
+      AutoLayout      =   LeftRightArrow1, 3, <Parent>, 3, False, +1.00, 1, 1, 41, , True
+      AutoLayout      =   LeftRightArrow1, 7, , 0, False, +1.00, 1, 1, 25, 25, True
       borderColor     =   &c484A4B00
       disabledColor   =   &c00000000
       facingRight     =   False
@@ -32,10 +32,10 @@ Begin iosView View1
    Begin LeftRightArrow LeftRightArrow2
       AccessibilityHint=   ""
       AccessibilityLabel=   ""
-      AutoLayout      =   LeftRightArrow2, 3, <Parent>, 3, False, +1.00, 1, 1, 41, 
-      AutoLayout      =   LeftRightArrow2, 1, <Parent>, 1, False, +1.00, 1, 1, 53, 
-      AutoLayout      =   LeftRightArrow2, 7, , 0, False, +1.00, 1, 1, 25, 
-      AutoLayout      =   LeftRightArrow2, 8, , 0, False, +1.00, 1, 1, 25, 
+      AutoLayout      =   LeftRightArrow2, 3, <Parent>, 3, False, +1.00, 1, 1, 41, , True
+      AutoLayout      =   LeftRightArrow2, 1, <Parent>, 1, False, +1.00, 1, 1, 53, , True
+      AutoLayout      =   LeftRightArrow2, 7, , 0, False, +1.00, 1, 1, 25, , True
+      AutoLayout      =   LeftRightArrow2, 8, , 0, False, +1.00, 1, 1, 25, , True
       borderColor     =   &c484A4B00
       disabledColor   =   &c00000000
       facingRight     =   True

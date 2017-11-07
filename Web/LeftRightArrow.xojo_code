@@ -5,7 +5,7 @@ Inherits webcanvas
 		Sub MouseEnter()
 		  currentColor = if(me.Enabled, mouseOverColor, disabledColor)
 		  
-		  Refresh
+		  Invalidate
 		  
 		  RaiseEvent MouseEnter
 		End Sub
@@ -15,7 +15,7 @@ Inherits webcanvas
 		Sub MouseExit()
 		  currentColor = If(Me.Enabled, paintColor, disabledColor)
 		  
-		  Refresh
+		  invalidate
 		  
 		  RaiseEvent MouseExit
 		End Sub
@@ -26,7 +26,7 @@ Inherits webcanvas
 		  
 		  currentColor = If(Me.Enabled, paintColor, disabledColor)
 		  
-		  Refresh
+		  invalidate
 		  
 		  RaiseEvent Open
 		End Sub
@@ -75,7 +75,6 @@ Inherits webcanvas
 		  End 
 		  
 		  points = Array( 0, startY, startX, midY, midX, lastY, lastX)
-		  
 		  
 		  g.FillPolygon( points )
 		  

@@ -1,5 +1,5 @@
 Type=Web
-RBProjectVersion=2017.011
+RBProjectVersion=2017.021
 MinIDEVersion=20110400
 Class=App;App.xojo_code;&h42541FFF;&h0;false
 WebSession=Session;Session.xojo_code;&h4BB30FFF;&h0;false
@@ -20,7 +20,7 @@ WinInternalName=
 WinProductName=
 WinFileDescription=
 AutoIncrementVersionInformation=False
-BuildFlags=&h8100
+BuildFlags=&hA100
 BuildLanguage=&h0
 DebugLanguage=&h0
 Region=

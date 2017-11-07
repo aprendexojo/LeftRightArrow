@@ -14,15 +14,6 @@ Inherits iOSCanvas
 
 	#tag Event
 		Sub Paint(g As iOSGraphics)
-		  
-		  
-		  'If Me.Enabled = False Then
-		  'currentColor = disabledColor
-		  'Else
-		  'If currentColor <> mouseOverColor Then currentColor = paintColor
-		  '
-		  'End If
-		  
 		  g.FillColor = currentColor
 		  
 		  Dim startX, startY, midX, midY, lastX, lastY As Integer
@@ -53,11 +44,6 @@ Inherits iOSCanvas
 		    lasty = Me.Width
 		    
 		  End 
-		  
-		  'points = Array( 0, startY, startX, midY, midX, lastY, lastX)
-		  
-		  
-		  'g.FillPolygon( points )
 		  
 		  Dim p As New iOSPath
 		  
@@ -125,10 +111,6 @@ Inherits iOSCanvas
 	#tag EndProperty
 
 	#tag Property, Flags = &h0
-		disabledColor As color
-	#tag EndProperty
-
-	#tag Property, Flags = &h0
 		facingRight As Boolean
 	#tag EndProperty
 
@@ -158,13 +140,6 @@ Inherits iOSCanvas
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="borderColor"
-			Visible=true
-			Group="Behavior"
-			InitialValue="&c000000"
-			Type="color"
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="disabledColor"
 			Visible=true
 			Group="Behavior"
 			InitialValue="&c000000"

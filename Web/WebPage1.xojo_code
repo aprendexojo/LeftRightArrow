@@ -45,6 +45,7 @@ Begin WebPage WebPage1
       facingRight     =   False
       hasBorder       =   True
       Height          =   23
+      HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
       Left            =   20
@@ -58,14 +59,21 @@ Begin WebPage WebPage1
       mouseOverColor  =   &c77777F00
       paintColor      =   &cA0A0AC00
       Scope           =   0
-      Style           =   "-1"
+      Style           =   "0"
       TabOrder        =   -1
       Top             =   20
       VerticalCenter  =   0
       Visible         =   True
       Width           =   23
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
    Begin LeftRightArrow LeftRightArrow2
       borderColor     =   &c484A4B00
@@ -76,6 +84,7 @@ Begin WebPage WebPage1
       facingRight     =   True
       hasBorder       =   True
       Height          =   23
+      HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
       Left            =   55
@@ -96,7 +105,14 @@ Begin WebPage WebPage1
       Visible         =   True
       Width           =   23
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
 End
 #tag EndWebPage

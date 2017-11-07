@@ -23,7 +23,6 @@ Inherits canvas
 
 	#tag Event
 		Sub Open()
-		  
 		  currentColor = If(Me.Enabled, paintColor, disabledColor)
 		  
 		  Refresh
@@ -34,8 +33,6 @@ Inherits canvas
 
 	#tag Event
 		Sub Paint(g As Graphics, areas() As REALbasic.Rect)
-		  
-		  
 		  If Me.Enabled = False Then
 		    currentColor = disabledColor
 		  Else
@@ -75,7 +72,6 @@ Inherits canvas
 		  End 
 		  
 		  points = Array( 0, startY, startX, midY, midX, lastY, lastX)
-		  
 		  
 		  g.FillPolygon( points )
 		  
